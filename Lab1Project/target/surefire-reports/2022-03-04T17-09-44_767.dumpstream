@@ -1,0 +1,24 @@
+# Created at 2022-03-04T17:09:45.441
+java.io.FileNotFoundException: /home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/surefire/surefire_02368533052142137158tmp (No such file or directory)
+
+# Created at 2022-03-04T17:09:45.442
+	at java.base/java.io.FileInputStream.open0(Native Method)
+
+# Created at 2022-03-04T17:09:45.443
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+
+# Created at 2022-03-04T17:09:45.444
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+
+# Created at 2022-03-04T17:09:45.445
+	at org.apache.maven.surefire.booter.SystemPropertyManager.loadProperties(SystemPropertyManager.java:67)
+
+# Created at 2022-03-04T17:09:45.445
+	at org.apache.maven.surefire.booter.SystemPropertyManager.setSystemProperties(SystemPropertyManager.java:73)
+
+# Created at 2022-03-04T17:09:45.446
+	at org.apache.maven.surefire.booter.ForkedBooter.setupBooter(ForkedBooter.java:95)
+
+# Created at 2022-03-04T17:09:45.446
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+

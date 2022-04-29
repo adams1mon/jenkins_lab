@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="service.ServiceTest" time="0.338" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/test-classes:/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/classes:/home/adam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/home/adam/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/adam/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/home/adam/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.0/junit-jupiter-params-5.4.0.jar:/home/adam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/home/adam/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/adam/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:/home/adam/.m2/repository/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.jar:/home/adam/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/adam/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.15/byte-buddy-agent-1.8.15.jar:/home/adam/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/surefire/surefirebooter11208781587798235201.jar /home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/surefire 2022-03-14T20-44-19_973-jvmRun1 surefire18310882835308020758tmp surefire_015477446350384947006tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/test-classes:/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/classes:/home/adam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/home/adam/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/adam/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/home/adam/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.0/junit-jupiter-params-5.4.0.jar:/home/adam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/home/adam/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/adam/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:/home/adam/.m2/repository/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.jar:/home/adam/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/adam/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.15/byte-buddy-agent-1.8.15.jar:/home/adam/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/adam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project/target/surefire/surefirebooter11208781587798235201.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-Ubuntu-118.04"/>
+    <property name="user.name" value="adam"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-100-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/adam/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/home/adam/UBB/6_felev/quality_assurance/labor/junit/Lab1Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="17.0.2+8-Ubuntu-118.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="deleteStudents_ShouldDeleteExistingStudents{Student, Boolean}[1]" classname="service.ServiceTest" time="0.168"/>
+  <testcase name="saveStudent{Student, Boolean}[1]" classname="service.ServiceTest" time="0.017"/>
+  <testcase name="saveStudent{Student, Boolean}[2]" classname="service.ServiceTest" time="0.014"/>
+  <testcase name="saveStudent{Student, Boolean}[3]" classname="service.ServiceTest" time="0.012"/>
+  <testcase name="saveStudent{Student, Boolean}[4]" classname="service.ServiceTest" time="0.011"/>
+  <testcase name="saveStudent{Student, Boolean}[5]" classname="service.ServiceTest" time="0.009"/>
+  <testcase name="findAllStudents" classname="service.ServiceTest" time="0.01"/>
+  <testcase name="updateStudent_ShouldUpdateExistingStudent" classname="service.ServiceTest" time="0.014"/>
+  <testcase name="deleteHomework_ShouldDeleteExistingHomework" classname="service.ServiceTest" time="0.023"/>
+</testsuite>
